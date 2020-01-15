@@ -1,0 +1,1 @@
+** Resultado da semana OmniStack 10 apresentado pela RocketSeat**
