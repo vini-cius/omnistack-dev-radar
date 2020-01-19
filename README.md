@@ -5,6 +5,6 @@
 Foi criado uma aplicação onde é possível buscar desenvolvedores cadastrados no mapa filtrando por tecnologias.
 
 Foi utilizado: 
-**Node.js** no backend
-**ReactJS** no frontend web
-**React Native** no mobile
+- **Node.js** no backend
+- **ReactJS** no frontend web
+- **React Native** no mobile
