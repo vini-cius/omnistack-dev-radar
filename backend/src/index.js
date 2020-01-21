@@ -6,12 +6,14 @@ const http = require('http');
 const routes = require('./routes.js');
 const { setupWebsocket } = require('./websocket.js');
 
+const connectionString = require('../credentials/database.json').connectionString
+
 const app = express();
 const server = http.Server(app);
 
 setupWebsocket(server);
 
-mongoose.connect('mongodb+srv://vinicius-santos:m3tall1c4@vinicluster-7x9id.mongodb.net/dev_radar?retryWrites=true&w=majority',{
+mongoose.connect(connectionString,{
   useNewUrlParser: true,
   useUnifiedTopology: true
 });

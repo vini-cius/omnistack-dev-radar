@@ -31,6 +31,10 @@ function App() {
     setDevs([...devs, response.data]);
   }
 
+  async function deleteUser(){
+    const response = await api.delete(`/devs/${devs._id}`);
+  }
+
   return (
     <div id="app">
       <aside>
